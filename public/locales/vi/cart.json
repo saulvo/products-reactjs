@@ -1,0 +1,13 @@
+{
+  "image": "ảnh",
+  "productInfo": "thông tin sản phẩm",
+  "price": "giá",
+  "quantity": "số lượng",
+  "money": "thành tiên",
+  "shopping": "tiếp tục mua hàng",
+  "order": "đặt hàng",
+  "total": "Tổng cộng",
+  "emptyCart": "Chưa có sản phẩm",
+  "addCartSuccess": "Đã thêm vào giỏ hàng",
+  "addCart": "Thêm vào giỏ"
+}

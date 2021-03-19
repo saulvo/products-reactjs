@@ -1,0 +1,21 @@
+.prod-cat {
+  list-style: none;
+  padding: 0;
+
+  li {
+    font-size: .875rem;
+
+    color: #51545f;
+    padding: .5rem 0;
+
+    cursor: pointer;
+    svg {
+      font-size: .7rem;
+      margin-right: .3rem;
+    }
+
+    &.is-active {
+      color: #fe4c50;
+    }
+  }
+}

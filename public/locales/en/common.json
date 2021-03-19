@@ -1,0 +1,19 @@
+{
+  "home": "Home",
+  "products": "Products",
+  "promotion": "Promotion",
+  "blog" : "Blog",
+  "contact": "Contact",
+  "account":"My Account",
+  "signin": "Sign In",
+  "register": "Register",
+  "cart": "cart",
+  "addEdit": "Add/Edit Product",
+
+  "vi": "Viet Nam",
+  "en": "English",
+
+  "header_slogan":"free shipping on all u.s orders over $50",
+  "yes": "YES",
+  "no": "NO"
+}

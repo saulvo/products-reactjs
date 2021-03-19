@@ -1,0 +1,19 @@
+{
+  "home": "Trang chủ",
+  "products": "Sản phẩm",
+  "promotion": "Khuyến mãi",
+  "blog" : "Bài viết",
+  "contact": "Liên hệ",
+  "account":"Tài khoản",
+  "signin": "Đăng nhập",
+  "register": "Đăng ký",
+  "cart": "Giỏ hàng",
+  "addEdit": "Cập nhật sản phẩm",
+
+  "vi": "Tiếng Việt",
+  "en": "Tiếng Anh",
+
+  "header_slogan":"Miễn phí giao hàng cho tất cả đơn hàng trên 100k",
+  "yes": "CÓ",
+  "no": "KHÔNG"
+}

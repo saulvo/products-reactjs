@@ -1,0 +1,13 @@
+{
+  "image": "image",
+  "productInfo": "product info",
+  "price": "price",
+  "quantity": "quantity",
+  "money": "money",
+  "shopping": "continue shopping",
+  "order": "order",
+  "total": "Total",
+  "emptyCart": "The cart is empty",
+  "addCartSuccess": "Cart added successfully",
+  "addCart": "add to cart"
+}

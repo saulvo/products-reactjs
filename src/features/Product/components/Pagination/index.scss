@@ -1,0 +1,36 @@
+.pagination {
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	margin: 0 0 0 auto;
+	padding: 0;
+	width: max-content;
+
+	> li {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		width: 2rem;
+		height: 2rem;
+
+		margin: 0 0.1rem;
+    border: 1px solid #eee;
+    cursor: pointer;
+		transition: all 0.3s;
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&.is-active,
+		&:hover {
+      color: #fff;
+      border-color: #fe4c50;
+			background-color: #fe4c50;
+    }
+    &.is-active {
+      cursor: default;
+    }
+	}
+}
