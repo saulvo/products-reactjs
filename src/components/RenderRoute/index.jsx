@@ -17,7 +17,7 @@ function RenderRoute({ component: Component, title, path, ...rest }) {
 		}
 
 		history.push(newUrl);
-	}, [currentLang, history]);
+	}, [currentLang, history, location.pathname]);
 
 	const { t } = useTranslation(["common"]);
 
@@ -25,7 +25,7 @@ function RenderRoute({ component: Component, title, path, ...rest }) {
 		document.title = title
 			? `${t(title)} | ${content.titlePage}`
 			: content.titlePage;
-	}, [currentLang, t, title, location.pathname]);
+	}, [currentLang, t, title]);
 
 	return (
 		<Route
