@@ -25,7 +25,7 @@ function RenderRoute({ component: Component, title, path, ...rest }) {
 		document.title = title
 			? `${t(title)} | ${content.titlePage}`
 			: content.titlePage;
-	}, [currentLang, t, title]);
+	}, [currentLang, t, title, location.pathname]);
 
 	return (
 		<Route
